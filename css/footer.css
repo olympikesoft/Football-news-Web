@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+footer{
+    width: 100%;
+    height: 330px;
+    background-color: #EFEFEF;
+    border-top: 2px solid #DDDDDD;
+    font-family: roboto,sans-serif;
+}
+
+#footer_info{
+    max-width: 950px;
+    height: auto;
+    margin: auto;
+    padding: 1rem 15px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+nav.nav_footer > div{
+    width: 25%;
+    float: left;
+    color: #FEFEFE;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+nav.nav_footer div p:first-child{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav.nav_footer div a{
+    font-size: 14px;
+    color: #949494;
+    text-decoration: none;
+    display: block;
+}
+
+nav.nav_footer div:last-child a{
+    display: inline;
+}
+
+#community > div{
+    width: 242px;
+}
+
+#community > div > a > img{
+    height: 35px;
+    width: 35px;
+}
+
+#community_languages{
+    width: 100%;
+}
+
+.community_language{
+    vertical-align: bottom;
+}
+
+.community_language.inactive{
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+.community_language.inactive:hover{
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-ms-transition: .5s all;
+	-o-transition: .5s all;
+	transition: .5s all;
+}
+
+#community_copyright{
+    color: #717171;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 980px){
+    nav.nav_footer > div{
+        width: 30%;
+    }
+
+    #development{
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 650px){
+    footer{
+        height: 70px;
+    }
+
+    .nav_footer > div:not(#community), #community_title, #community_legal, #community_languages, #community_copyright{
+        display: none !important;
+    }
+
+    #community{
+        width: 100%;
+    }
+
+    #community > div{
+        width: 100%;
+        text-align: center;
+    }
+
+    #community > div > a{
+        margin: 0 6px;
+    }
+}

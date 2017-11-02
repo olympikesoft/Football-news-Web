@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.store_theme_bkg1, .app_theme_bkg1 {
+	background-image:url(../../images/store_themes/store_header_gold.png);
+}
+
+.entry:hover {
+	background-image:url(../../images/store_themes/box_hover_gold.png);
+}
+
+.categories p:first-child, 
+nav .nav_tab:hover, nav .nav_tab[data-nav-active],
+nav .nav_tab.lesser:hover, nav .nav_tab.lesser[data-nav-active] {
+	border-bottom-color: #d4a70a;
+}
+.categories p:first-child {
+    background-color: #d4a70a;
+    color: #fff!important;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    border: none;
+}
+
+.app_comments > div {
+	border-left-color: #d4a70a;
+}
+
+.categories p:first-child, article.store_about p:first-child,
+.categories section a:hover, .categories section a.main_cat, .categories section a.active,
+.app_comments .app_comment_controls a:hover, .btn.add_comment:hover {
+	color: #d4a70a;
+}
+
+.scrollable.aptoide-skin .scroll-bar .thumb {
+	background-color: #d4a70a;
+}
+
+.content_area {
+	background-color: #f0f0f0;
+}
+
+div.review_average, div.review_average2 {
+    box-shadow: 0px 0px 1px 1px #d4a70a;
+    background: #d4a70a;
+}

@@ -1,0 +1,500 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a.review{
+    text-decoration: none;
+}
+div.review_box,
+div.review_box3,
+div.review_box4{
+    position: relative;
+    width: 450px;
+    height: 120px;
+}
+div.review_box2{
+    position: relative;
+    width: 566px;
+    height: 130px;
+    margin-top: 4px;
+    text-align: left;
+    border: 1px solid #ddd;
+    background-color: #fcfcfc;
+}
+div.review_box3{
+    width: 465px;
+    border: 1px solid #ddd;
+}
+div.review_box3:hover{
+    background-color: #fcfcfc;
+}
+
+div.review_box4{
+    float: right;
+    background: url(../images/first_review_bg.png) no-repeat;
+}
+div.review_icon{
+    float: left;
+    padding: 12px;
+}
+div.review_icon > img{
+    width: 96px;
+    height: 96px;
+    border-radius: 15%;
+    background-repeat: no-repeat;
+}
+div.review_title{
+    font-size: 20px;
+    display: block;
+    overflow: hidden;
+    width: 250px;
+    padding-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+}
+div.review_user > img{
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+div.review_user div.review_text{
+    overflow: hidden;
+    width: 240px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.review_text,
+.review_text2{
+    font-size: 13px;
+    line-height: 22px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: baseline !important;
+    color: #000;
+}
+.review_text2{
+    line-height: 16px;
+}
+
+div.review_desc{
+    display: block;
+    width: 325px;
+    max-height: 32px;
+}
+div.review_average{
+    font-weight: 700;
+    line-height: 42px;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #fd9016;
+    box-shadow: 0 0 1px 1px #fd9016;
+}
+div.review_average2{
+    font-weight: 700;
+    line-height: 62px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #fd9016;
+    box-shadow: 0 0 1px 1px #fd9016;
+}
+
+
+div.review_header{
+    width: 100%;
+    height: 150px;
+}
+
+div.review_header div.icon{
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+div.review_header div.info{
+    float: left;
+    width: 400px;
+    height: 120px;
+    margin-left: 15px;
+}
+
+div.review_header div.score{
+    float: right;
+    width: 112px;
+    height: 112px;
+    margin-top: 10px;
+    margin-right: 40px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/global_score_bg.png);
+}
+
+div.review_header div.info div.app_name{
+    font-size: 25px;
+    overflow: hidden;
+    height: 35px;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+div.review_header div.info div.app_name a{
+    text-decoration: none;
+    color: #000;
+}
+/*
+.review_header .info .stars {
+    margin-top: 0;
+    height:15px;
+}
+.review_header .info .stars_info {
+    font-size:12px;
+    margin-top:5px;
+    color:#fd9626;
+}*/
+
+.review_header .info .user{
+    display: inline-block;
+    margin-top: 8px;
+}
+.review_header .info .user .avatar{
+    float: left;
+}
+.review_header .info .user .avatar img{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    -moz-user-select: none;
+    border-radius: 16px;
+}
+.review_header .info .user .name{
+    font-size: 13px;
+    float: left;
+    height: 25px;
+    margin-top: -2px;
+    color: #727272;
+}
+.review_header .info .user .name .udate{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.review_header .info .bt_get_app{
+    font-size: 14px;
+    float: left;
+    width: auto;
+    height: 20px;
+    padding: 2px 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #727272;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.review_header .info .bt_get_app:hover{
+    cursor: pointer;
+    text-align: center;
+    color: #363636;
+    border: solid 1px #363636;
+    background-color: #fff;
+}
+
+
+.divider{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 20px;
+    background-color: #d4d4d4;
+}
+
+.review_pros_cons{
+    width: 100%;
+}
+
+.pros{
+    float: left;
+    width: 465px;
+    height: auto;
+}
+.cons{
+    float: right;
+    width: 465px;
+    height: auto;
+}
+
+.title_pros{
+    width: 100%;
+    height: 35px;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+    background-color: #00c81b;
+}
+.title_cons{
+    width: 100%;
+    height: 35px;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+    background-color: #ff3037;
+}
+p.item_pc{
+    font-size: 14px;
+    padding-left: 40px;
+    color: #727272;
+}
+.pros p.item_pc{
+    background: transparent url(../images/green.png) no-repeat left;
+}
+.cons p.item_pc{
+    background: transparent url(../images/red.png) no-repeat left;
+}
+
+.review_items_pontuation{
+    height: 205px;
+}
+
+.review_items_pontuation .item{
+    float: left;
+    overflow: hidden;
+    width: 231px;
+    height: 150px;
+    margin: 3px;
+    background-size: 150px;
+}
+.review_items_pontuation .item .info_pont{
+    position: relative;
+    width: 147px;
+    height: 150px;
+    margin-left: 84px;
+    background-color: rgba(0,0,0,.8);
+}
+.review_items_pontuation .item .info_pont.opaque{
+    background-color: rgba(0,0,0,1)!important;
+}
+
+.review_items_pontuation .item .name_pont{
+    font-size: 18px;
+    width: 231px;
+    height: 30px;
+    padding-top: 2px;
+    text-align: center;
+    color: #fff;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    text-shadow: #6e7174 0 1px 2px;
+}
+.name_pont.green{
+    background-color: #00c81b;
+}
+.name_pont.yellow{
+    background-color: #d9d31a;
+}
+.name_pont.orange{
+    background-color: #f60;
+}
+.name_pont.red{
+    background-color: #ff3037;
+}
+.info_pont .hip{
+    padding-top: 10px;
+}
+
+.info_pont .hip .circ{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+.info_pont .hip .text{
+    font-size: 20px;
+    position: absolute;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 34px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 2px #6e7174;
+}
+
+
+svg.h_graph{
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+svg.h_graph circle{
+    transition: stroke-dashoffset 1s linear;
+    stroke-width: 8px;
+}
+
+.green svg.h_graph circle[data-circ-bar-percent]{
+    stroke: #00c81b;
+}
+.yellow svg.h_graph circle[data-circ-bar-percent]{
+    stroke: #d9d31a;
+}
+.orange svg.h_graph circle[data-circ-bar-percent]{
+    stroke: #f60;
+}
+.red svg.h_graph circle[data-circ-bar-percent]{
+    stroke: #ff3037;
+}
+
+circle[data-background]{
+    stroke: #ccc;
+    stroke-opacity: .3;
+}
+.verdict .content{
+    font-size: 13px;
+    color: #727272;
+}
+.verdict{
+    margin-bottom: 40px;
+}
+.social_share{
+    height: 40px;
+    margin-bottom: 30px;
+}
+.ib{
+    /*display: inline-block;*/
+    float: left;
+    margin-right: 5px;
+}
+.ib.sl{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 20px;
+}
+.fb iframe{
+    margin-top: -3px;
+}
+
+
+/* APP VIEW REVIEW RESUME*/
+.resume_review{
+    width: 950px;
+    height: 200px;
+    margin: auto;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    background: no-repeat center center;
+}
+.resume_review .overlay{
+    width: 950px;
+    height: 200px;
+    background-color: rgba(0,0,0,.7);
+}
+
+.resume_review .hip .text{
+    font-weight: 600;
+    position: absolute;
+    width: 110px;
+    margin-top: -58px;
+}
+
+
+.resume_review .info{
+    float: left;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 450px;
+    height: 200px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.resume_review .kpi{
+    float: right;
+    width: 470px;
+    height: 180px;
+}
+.resume_review .info .title{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fefefe;
+}
+
+.resume_review .verdict{
+    font-size: 13px;
+    display: inline-block;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.resume_review .btn.full_review{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border: solid #fff 2px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+.resume_review .btn.full_review:hover{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+}
+.resume_review .box1{
+    float: left;
+    width: 110px;
+    height: 145px;
+    margin-top: 40px;
+    margin-left: 5px;
+    text-align: center;
+    color: #fff6f6;
+}
+.resume_review .box1 .label{
+    font-weight: 600;
+}
+.resume_review .info .user{
+    display: inline-block;
+    margin-top: 8px;
+}
+.resume_review .info .user .avatar{
+    float: left;
+}
+.resume_review .info .user .avatar img{
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    -moz-user-select: none;
+    border-radius: 13px;
+}
+.resume_review .info .user .name{
+    font-size: 13px;
+    float: left;
+    height: 25px;
+    margin-top: 3px;
+    color: #f60;
+}
